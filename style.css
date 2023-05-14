@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+
+    align-items: center;
+    background: linear-gradient(320deg, #00FF7F, #7FFFD4,
+            #00CED1);
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.table{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+
+}
+
+.tela {
+
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+    height:45px;
+
+}
+
+.botoes-num-lin{
+
+    display: flex;
+    justify-content:space-between;
+    margin: 5% 0;
+   
+}
+.calc-botão{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color:#232323;
+    flex-basis:20%;
+    font-family: inherit;
+    font-size: 40px;
+    height:60px;
+    width: 80px;
+   
+}
+
+.calc-botão-c{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color:#232323;
+    flex-basis:20%;
+    font-family: inherit;
+    font-size: 40px;
+    height:60px;
+    width: 180px;  
+}
+
+
+.calc-botão:last-child{
+
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color:#ffff;
+    background: #20B2Aa;
+
+}
+
+.calc-botão:last-child:hover{
+
+    background-color: inherit;
+    color: inherit;
+}
+
+.calc-botão:hover{
+    background-color: inherit;
+}
+
+.calc-botão:active{
+
+    background-color: #20B2AA;
+    color:#ffff;
+
+}
+
+
